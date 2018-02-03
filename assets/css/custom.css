@@ -1,0 +1,327 @@
+/*
+
+*/
+.text-white {
+  	color: #fff !important;
+}
+
+.text-black {
+  	color: #000;
+}
+
+/* Navbar Styles */
+#navbar {
+	height: 30px;
+	background: #560892;
+	padding: 5px;
+	color: white;
+}
+
+.links-wrapper {
+  	list-style: none;
+}
+
+.links-wrapper a {
+	color: #fff;
+	border-right: 2px solid #fff;
+	padding: 0px 15px;
+}
+
+/* .links-wrapper a:hover {
+  	 text-decoration: none;
+} */
+
+.links-wrapper a:nth-child(4) {
+  	border-right: 0px solid transparent;
+}
+
+/* Middlebar Styles */
+#midbar {
+	height: 150px;
+    padding: 10px 0px;
+    background: #861cd8;
+    margin-bottom: 20px;
+	/* position: absolute;
+	width: 100%;
+	margin-top: 30px; */
+}
+
+#bet-options-wrapper {
+    margin-top: 70px;
+}
+
+#profile-info {
+    margin-top: 25px;
+}
+
+.profile-img {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.bet-options-dropdown > li.active > a,
+.bet-options-dropdown > li.active > a:focus,
+.bet-options-dropdown > li.active > a:hover {
+	color: #fff;
+	background-color: #560892;
+	border: 1px solid #861cd8;
+	border-bottom-color: #861cd8;
+}
+
+.bet-options-dropdown > li > a {
+	color: #fff;
+    border: 1px solid transparent;
+}
+
+.bet-options-dropdown {
+	border-bottom: 1px solid transparent;
+}
+
+.bet-options-dropdown .open>a, .bet-options-dropdown .open>a:focus, .bet-options-dropdown .open>a:hover {
+    background-color: #560892;
+    border-color: transparent;
+}
+
+.bet-options-dropdown>li>a:hover {
+    border-color: #560892 #560892 #560892;
+}
+
+.bet-options-dropdown>li>a:focus, .bet-options-dropdown>li>a:hover {
+    text-decoration: none;
+    background-color: #560892;
+}
+
+.dropdown-menu {
+    background-color: #560892;
+    border: 1px solid #560892;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px #560892;
+    box-shadow: 0 6px 12px #560892;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    background-color: #861cd8;
+}
+
+/*  */
+#pending-bets, #activity-logs {
+	margin-top: 55px;
+}
+
+/* .log-div{
+	width: 87%;
+    border-radius: 9px;
+	background: #eee;
+	text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.log-p{
+	color: #fff !important;
+	font-weight: 100 !important;
+}
+
+.log-row{
+	width: 90%;
+	margin: 10px auto;
+	padding: 5px;
+	background-color: #861cd8;
+} */
+
+#login{
+	text-align: center;
+}
+
+.log-input{
+	width: 110px;
+	background: #861cd8;
+	border: none;
+	margin: 0px 0px 0px 5px;
+	text-align: center;
+	color: #fff;
+}
+
+#logo-wrapper{
+	margin: 20px auto;
+}
+
+.Username{
+	margin-bottom: 15px;
+}
+
+.Password{
+	margin-bottom: 15px;
+}
+
+.signup a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.match-info strong{
+	font-size: 11px;
+}
+
+.live{
+	text-align: center;
+}
+
+.one-on-one{
+	text-align: center;
+}
+
+.code-input{
+	width: 100%;
+    height: 51px;
+	border: none;
+	font-size: 15px;
+}
+
+.code-body{
+	padding: 2px !important;
+}
+
+input.placeholder {
+    text-align: center;
+}
+
+.one{
+	color: #560892;
+}
+
+.onerow{
+	padding: 20px;
+}
+
+.enter{
+	COLOR: #560892;
+    font-size: 22px;
+    padding: 51px;
+}
+
+.sharedcode{
+	width: 150px;
+	height: 30px;
+	margin: 5px;
+	background: #fff;
+	/* border: #fff; */
+}
+
+.box{
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	background: green;
+}
+
+.live-matches{
+	border-bottom: 5px solid #eee;
+    width: 100%;
+    padding-top: 13px;
+    margin: auto;
+}
+
+#logo-wrapper strong{
+	color:#fff;
+	margin: 10px auto;
+	font-family: initial;
+	font-size: 28px;
+}
+
+.redcolor{
+	width: 10px;
+	height: 10px;
+	background: red;
+	border-radius: 30px;
+}
+
+.betslip-fixtures{
+	left: 0% !important;
+}
+
+.betslip{
+	text-align: center;
+}
+
+.betslip-btn{
+	margin: 5px;
+}
+
+#logo-wrapper p{
+	color:#fff;
+	font-family: sans-serif;
+    font-size: 14px
+}
+
+.signin{
+	background-color: #861cd8 !important;
+	border: none;
+	color: #fff;
+	padding: 6px;
+	border-radius: 3px;
+	width: 80px;
+}
+
+.signupp{
+	text-align: center;
+	padding: 10px;
+}
+
+.sign-div{
+	width: 100%;
+}
+
+.log-div p{
+ 	color:#560892;
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.pending-bets-heading, .activity-logs-heading {
+	color: #fff !important;
+    background-color: #560892 !important;
+    border-color: #ddd;
+    padding: 4px 0 !important;
+	border-radius: 0;
+}
+
+/* Ongoing matches styles*/
+#hot-fixtures, #ongoing-matches {
+	/*width: 37%;*/
+}
+
+.fixtures {
+	/* width: 83%; */
+	margin: 0 auto;
+	position: relative;
+	left: 18%;
+}
+
+.match-info {
+	margin-bottom: 20px;
+}
+
+.home-team-img, .away-team-img {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.home-team-score, .away-team-score {
+	position: relative;
+	top: 20px;
+	margin: 0 -3px;
+}
+
+.vs {
+	font-size: 10px;
+	font-weight: 900;
+	margin: 0 10px;
+}
+
+.dsp-inline-block {
+	display: inline-block;
+}

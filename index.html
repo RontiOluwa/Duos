@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <title>Duosbet (index-completing)</title>
+</head>
+<body>
+    <div id="home-page">
+        <div id="navbar" class="col-md-12">
+            <ul id="page-links" class="pull-right">
+                <li class="links-wrapper">
+                    <a href="#">Terms and Condition</a>
+                    <a href="#">Help</a>
+                    <a href="#">Contact</a>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+        <div id="midbar"><!-- This contains the logo, the bet options (),  -->
+            <div class="col-md-12">
+                <!-- Contains logo -->
+                <div class="col-md-3" id="logo-wrapper">
+                    <strong>DUOSBET<p>Enhancing Bet Strategies</p></strong>
+                </div>
+                <!-- Contains betting options -->
+                <div class="col-md-6" id="bet-options-wrapper">
+                    <ul class="nav nav-tabs bet-options-dropdown">
+                        <!-- <li class="active"><a href="#">Sports</a></li>
+                        <li><a href="#">Live Matches</a></li> -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Sports <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <!--<li><a class="text-white" href="#">Football</a></li>-->
+                                <li><a class="text-white" href="#">Basketball</a></li>
+                                <li><a class="text-white" href="#">Hockey</a></li>
+                                <li class="divider"></li>
+                                <li><a class="text-white" href="#">Tennis</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="test text-white" tabindex="-1" href="#">Football <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="text-white" tabindex="-1" href="#">Champions League</a></li>
+                                        <li><a class="text-white" tabindex="-1" href="#">Europa League</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a class="test text-white" href="#">International <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="text-white" href="#">World Cup</a></li>
+                                                <li><a class="text-white" href="#">AFCON</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Live Matches <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a class="text-white" href="#">Football</a></li>
+                                <li><a class="text-white" href="#">Basketball</a></li>
+                                <li><a class="text-white" href="#">Hockey</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                One on One <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a class="text-white" href="#">Football</a></li>
+                                <li><a class="text-white" href="#">Basketball</a></li>
+                                <li><a class="text-white" href="#">Hockey</a></li>
+                                <li class="divider"></li>
+                                <li><a class="text-white" href="#">World Cup</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-3">
+                    <div id="profile-info">
+                        <img class="profile-img" src="assets/img/user1.jpg"/>
+                        <span><b class="profile-name text-white">Ciroma Chukwuma</b></span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-3" id="pending-bets">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center pending-bets-heading">PENDING BETS</div>
+                    <div class="panel-body">
+                      Pending bets go here
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-6" id="hot-fixtures">
+                    <div class="panel panel-default">
+                        <div class="panel-heading text-center activity-logs-heading">TODAY'S HOT FIXTURES</div>
+                        <div class="panel-body">
+                            <div class="fixtures">
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/real-madrid.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/manchester-united.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/arsenal.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/everton.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/leicester.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/manchester-city.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="ongoing-matches">
+                    <div class="panel panel-default">
+                        <div class="panel-heading text-center activity-logs-heading">ONGOING MATCHES</div>
+                        <div class="panel-body">
+                            <div class="fixtures">
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/real-madrid.png" alt="">
+                                        <span class="home-team-score"><b>5</b></span>
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <span class="away-team-score"><b>3</b></span>
+                                        <img class="away-team-img" src="assets/img/manchester-united.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/barcelona.png" alt="">
+                                        <span class="home-team-score"><b>5</b></span>
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <span class="away-team-score"><b>3</b></span>
+                                        <img class="away-team-img" src="assets/img/chelsea.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/paris-saint-germain.png" alt="">
+                                        <span class="home-team-score"><b>5</b></span>
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <span class="away-team-score"><b>3</b></span>
+                                        <img class="away-team-img" src="assets/img/tottenham-hotspur.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12" id="list-of-matches">
+                    <div class="panel panel-default">
+                        <div class="panel-heading text-center activity-logs-heading">TOP BETS</div>
+                        <div class="panel-body">
+                            TOP BETS  go here
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-2">
+                         
+                </div> -->
+            </div>
+
+            <div class="col-md-3" id="login">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center activity-logs-heading">LOGIN</div>
+                    <div class="panel-body">
+                        <form>
+                            <div class="input-group Username">
+                              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                              <input id="Username" type="text" class="form-control" name="Username" placeholder="Username">
+                            </div>
+                            <div class="input-group Password">
+                              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                              <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+                            </div>
+                            <button type="button" class="btn btn-info btn-block">LOGIN</button>
+                        </form>
+
+                        <span class="signup">Not a Member Yet?
+                            <p><a href="register.html">Sign Up</a></p>
+                        </span>
+
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary">View Bet Slip</button>                
+            </div>
+
+            <!-- <div class="col-md-3" id="login-logs">
+                    <div class="log-div">
+                        <p>LOGIN</p>
+                        <div class="row log-row">
+                            <div class="col-sm-4">
+                                <p class="log-p">username</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <input type="text" placeholder="John Doe" class="log-input">
+                            </div>
+                        </div>
+                        <div class="row log-row">
+                            <div class="col-sm-4">
+                                <p class="log-p">password</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <input type="password" placeholder="........" class="log-input">
+                            </div>
+                        </div>
+                            <a class="signin">SIGN IN</a>
+                    </div>
+                    <p  class="signupp">Not a Member?
+                    <a href="#">Sign Up</a></p>
+
+                    <a class="signin">.VIEW BET SLIP</a>  
+            </div> -->
+            <div class="col-md-10 col-md-push-1" id="more-matches">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center activity-logs-heading">MATCHES (UEFA CHAMPIONS LEAGUE)</div>
+                    <div class="panel-body">
+                        <div class="col-md-3">
+                            <div class="fixtures">
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/real-madrid.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/manchester-united.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/barcelona.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/chelsea.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/paris-saint-germain.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/tottenham-hotspur.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        <div class="fixtures">
+                            <div class="match-info">
+                                <div class="home-team-info dsp-inline-block">
+                                    <img class="home-team-img" src="assets/img/real-madrid.png" alt="">
+                                </div>
+                                <span class="vs">VS</span>
+                                <div class="away-team-info dsp-inline-block">
+                                    <img class="away-team-img" src="assets/img/manchester-united.png" alt="">
+                                </div>
+                            </div>
+                            <div class="match-info">
+                                <div class="home-team-info dsp-inline-block">
+                                    <img class="home-team-img" src="assets/img/barcelona.png" alt="">
+                                </div>
+                                <span class="vs">VS</span>
+                                <div class="away-team-info dsp-inline-block">
+                                    <img class="away-team-img" src="assets/img/chelsea.png" alt="">
+                                </div>
+                            </div>
+                            <div class="match-info">
+                                <div class="home-team-info dsp-inline-block">
+                                    <img class="home-team-img" src="assets/img/paris-saint-germain.png" alt="">
+                                </div>
+                                <span class="vs">VS</span>
+                                <div class="away-team-info dsp-inline-block">
+                                    <img class="away-team-img" src="assets/img/tottenham-hotspur.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-md-3">
+                            <div class="fixtures">
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/real-madrid.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/manchester-united.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/barcelona.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/chelsea.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/paris-saint-germain.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/tottenham-hotspur.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="fixtures">
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/real-madrid.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/manchester-united.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/barcelona.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/chelsea.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="match-info">
+                                    <div class="home-team-info dsp-inline-block">
+                                        <img class="home-team-img" src="assets/img/paris-saint-germain.png" alt="">
+                                    </div>
+                                    <span class="vs">VS</span>
+                                    <div class="away-team-info dsp-inline-block">
+                                        <img class="away-team-img" src="assets/img/tottenham-hotspur.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
